@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.styled-border {
+  border-right: 1px dotted gray;
+}
+@media (min-width: 0px) and (max-width: 575px) {
+  .styled-border,
+  .styled {
+    border: 1px solid rgba(128, 128, 128, 0.344);
+    margin: 3% 0%;
+    border-radius: 5%;
+  }
+}
+
+.aboutlockbg {
+  background: rgb(30, 64, 175);
+  background: linear-gradient(
+    0deg,
+    rgba(30, 64, 175, 0.4290091036414566) 43%,
+    rgba(34, 197, 94, 0.06206232492997199) 86%
+  );
+}
+
+.styled-img {
+  width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .styled-img {
+    width: 100%;
+  }
+  .banner-text {
+    line-height: 1rem !important;
+  }
+  .logo {
+    width: 35% !important;
+  }
+}
+
+.rec-arrow,
+.rec-dot {
+  display: none;
+}
+
+.MuiListItem-padding {
+  padding: 0%;
+}
+
+.banner {
+  /* background-image: url("assets/datamach1.png"); */
+  background-repeat: no-repeat;
+  background-position: 780px 30px;
+  width: 100%;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo-footer {
+  width: 40%;
+}
