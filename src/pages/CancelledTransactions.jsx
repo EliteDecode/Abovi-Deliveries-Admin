@@ -21,7 +21,7 @@ const CancelledTransactions = () => {
     },
     {
       field: "ProductWeight",
-      headerName: "Weight",
+      headerName: "Destination",
 
       width: 150,
     },

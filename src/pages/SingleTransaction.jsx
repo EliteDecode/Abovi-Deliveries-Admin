@@ -80,7 +80,7 @@ const SingleTransaction = () => {
                             fontWeight: "bolder",
                           }}
                         >
-                          Product Weight
+                          Product Destination
                         </Typography>
                         <Typography sx={{ fontSize: "12px" }}>
                           {transactionData?.ProductWeight}
