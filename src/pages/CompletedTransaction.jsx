@@ -21,7 +21,7 @@ const CompletedTransactions = () => {
     },
     {
       field: "ProductWeight",
-      headerName: "Destination",
+      headerName: "Weight",
 
       width: 150,
     },
