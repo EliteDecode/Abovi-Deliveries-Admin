@@ -84,7 +84,7 @@ const AdminLogin = () => {
                     color: "#1d4ed8",
                   }}
                 >
-                  AboviPH
+                  Aboviph
                 </Typography>
               </Typography>
               <Typography component="paragraph" sx={{ fontSize: "12px" }}>

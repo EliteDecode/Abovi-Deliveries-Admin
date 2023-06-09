@@ -126,6 +126,21 @@ const SingleTransaction = () => {
                           {transactionData?.ProductLocation}
                         </Typography>
                       </Box>
+                      <Box classNamee="">
+                        <Typography
+                          sx={{
+                            fontSize: "12px",
+                            opacity: "90%",
+                            color: "#1d4ed8",
+                            fontWeight: "bolder",
+                          }}
+                        >
+                          Product Destination
+                        </Typography>
+                        <Typography sx={{ fontSize: "12px" }}>
+                          {transactionData?.ProductDestination}
+                        </Typography>
+                      </Box>
                       <Box sx={{ marginTop: "10%" }}>
                         <Typography
                           sx={{
