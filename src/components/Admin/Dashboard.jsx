@@ -62,7 +62,7 @@ const Dashboard = () => {
     {
       name: "Settings",
       icon: settings,
-      link: "/admin/",
+      link: "/admin/settings",
       bg: "bg-sky-700",
     },
     {
